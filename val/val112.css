@@ -1,0 +1,354 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:20px;
+  font-style: normal;
+}
+header{
+    background: #0B0000;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header ul{
+    position: absolute;
+    left: 300px;
+    top: 0;
+    display: inline;
+    margin-right: 1vw;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin: 2vw;
+}
+h2{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: inline-block;
+}
+.Azone{
+    padding: 293px;
+}
+.Bzone{
+    height: 40vh;
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Bzone p{
+		padding-left:40px
+}
+.t1 p {
+	top:100px;
+	font-size:70px;
+	color:#0F1923;
+}
+.videoA{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    z-index: -9999;
+    object-fit: fill;
+}
+.videoB{
+    position: absolute;
+    top: 669px;
+    width: 698px;
+    height: 355px;
+    z-index: 2;
+    object-fit: fill;
+    left: 1081px;
+}
+.Czone{
+    height: 25vh;
+    background-image: url("back2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -9997;
+}
+.Czone p{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.Dzone{
+    background-color: #0F1923;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.slide{
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.card-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.card-image:hover{
+    transform: scale(1.05);
+}
+.text-overlay{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.slide:hover .text-overlay{
+    opacity: 1;
+}
+.Dzone img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.Dzone .round{
+    border-radius: 50%;
+}
+.Dzone nav{
+    text-align: center;
+}
+.titlezone{
+    height: 39vh;
+	background-image: url("back2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -9997;
+}
+.titlezone p{
+	color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.sagezone{
+    background-color:#132436;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+	height: 50vh;
+
+}
+.sagezone img{
+    position: absolute;
+    top: -140px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: auto;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.name h2{
+	left:130px;
+	color:white;
+	font-size: 100px;
+	font-style: italic;
+}
+.name h3{
+	padding-top: 240px;
+	color: aliceblue;
+}
+.videoC{
+    position: absolute;
+    top: 50px;
+    width: 698px;
+    height: 405px;
+    z-index: 2;
+    object-fit: fill;
+	left: 1200px;
+}
+.PHzone{
+    background-color:#132436;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+	height: 50vh;
+
+}
+.PHzone img{
+    position: absolute;
+    top: -140px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: auto;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name h2{
+	left:250px;
+	color:white;
+	font-size: 100px;
+	font-style: italic;
+}
+.name h3{
+	padding-top: 240px;
+	color: aliceblue;
+}
+.videoC{
+    position: absolute;
+    top: 50px;
+    width: 698px;
+    height: 405px;
+    z-index: 2;
+    object-fit: fill;
+	left: 1200px;
+}
+.Mapzone{
+	background-color:#ECE8E3;
+    padding: 20px;
+    display: flex;
+    z-index: 2;
+	height: 70vh;
+}
+.carousel-inner{
+    width: 800px;
+    height: 500px;
+	top:120px;
+	left: -400px;
+}
+.carousel-item img{
+	width: 100%;
+	height: 100%;
+    object-fit:cover;
+}
+.maptitlezone{
+    height: 15vh;
+	background-image:url("mapback.webp");
+    background-size: cover;
+	background-position:left;
+    z-index: -9997;
+}
+.maptitlezone p{
+	color: #0F1923;
+    font-size: 60px;
+    text-align: center;
+}
+.tilte2{
+	color: #0F1923;
+    font-size: 60px;	
+	transform: translateX(799px);
+
+	
+}
+.carousel-inner{
+    width: 800px; 
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+	transform: translate(85%,0%);
+}
+footer{
+	background-color:#0F1923;
+	color: aliceblue;
+	height: 10vh;
+	font-size: 20px;
+	text-align: center;
+}
+footer img{
+	 width: 60px; 
+	 height: 50px; 
+}
+@media (max-width: 1024px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header ul{
+        flex-direction: column;
+		align-items: center;
+        margin-top: 10px;
+    }
+    header li{
+        margin: 5px 0;
+    }
+    .Dzone{
+        flex-direction: column;
+        align-items: center;
+    }
+    .slide{
+        flex: 1 1 200px;
+		margin: 10px 0;
+    }
+    .videoA, .videoB, .videoC{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 768px){
+    h2 {
+        font-size: 1.8em;
+    }
+    .videoA, .videoB, .videoC{
+        height: 250px;
+    }
+    .slide {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 480px){
+    header h1 {
+        font-size: 1.5em;
+    }
+    header ul {
+        display: none;
+    }
+    .Dzone {
+        padding: 10px;
+    }
+    .slide {
+        flex: 1 1 100%;
+        margin: 5px 0;;
+    }
+    .card-image {
+        height: 150px;
+    }
+    .videoA, .videoB, .videoC {
+        height: 200px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
